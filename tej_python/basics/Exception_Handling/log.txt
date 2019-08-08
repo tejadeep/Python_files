@@ -1,0 +1,45 @@
+hu
+WARNING:root:***** warning ********
+ERROR:root:******** Error ******
+CRITICAL:root:****** Critical ******
+DEBUG:root:********** Debug *******
+WARNING:root:***** warning ********
+ERROR:root:******** Error ******
+CRITICAL:root:****** Critical ******
+ERROR:root:******** Error ******
+CRITICAL:root:****** Critical ******
+
+INFO:root: ******** new information came ****** 
+ERROR:root:integer division or modulo by zero
+Traceback (most recent call last):
+  File "logging_2.py", line 9, in <module>
+    print(x/y)
+ZeroDivisionError: integer division or modulo by zero
+INFO:root: ******************** Done **************
+INFO:root: ******** new information came ****** 
+ERROR:root:integer division or modulo by zero
+Traceback (most recent call last):
+  File "logging_2.py", line 9, in <module>
+    print(x/y)
+ZeroDivisionError: integer division or modulo by zero
+INFO:root: ******************** Done **************
+INFO:root: ******** new information came ****** 
+ERROR:root:integer division or modulo by zero
+Traceback (most recent call last):
+  File "logging_2.py", line 9, in <module>
+    print(x/y)
+ZeroDivisionError: integer division or modulo by zero
+INFO:root: ******************** Done **************
+INFO:root: ******** new information came ****** 
+INFO:root: ******** new information came ****** 
+INFO:root: ******************** Done **************
+INFO:root: ******** new information came ****** 
+ERROR:root:name 'ted' is not defined
+Traceback (most recent call last):
+  File "logging_2.py", line 8, in <module>
+    y=int(input("enter the second num\n"))
+  File "<string>", line 1, in <module>
+NameError: name 'ted' is not defined
+INFO:root: ******************** Done **************
+INFO:root: ******** new information came ****** 
+INFO:root: ******** new information came ****** 

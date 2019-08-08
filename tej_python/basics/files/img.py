@@ -1,0 +1,6 @@
+f=open("powan.jpeg","rb")
+f2=open("pown_dup.jpeg","wb")
+bytes=f.read()
+f2.write(bytes)
+f.close()
+f2.close()

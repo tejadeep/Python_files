@@ -1,0 +1,8 @@
+class god
+{
+	vot()
+	{
+		print "hellooooo"
+	}
+
+};
